@@ -212,14 +212,14 @@
         /* Hero Section */
         .hero {
             position: relative;
-            height: 100vh;
+            height: 75vh;
             display: flex;
             align-items: center;
             text-align: center;
             color: var(--white);
             background-image: url('../img/plotter.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: center 80%;
             overflow: hidden;
             padding-top: 5rem;
         }
