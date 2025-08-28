@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página em Construção</title>
+  <style>
+    body {
+      background: #f4f4f4;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+      color: #555;
+    }
+
+    .personagem {
+      font-size: 6em;
+      animation: balanco 2s infinite ease-in-out;
+    }
+
+    @keyframes balanco {
+      0% { transform: rotate(0deg); }
+      25% { transform: rotate(10deg); }
+      50% { transform: rotate(0deg); }
+      75% { transform: rotate(-10deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    .btn-voltar {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #b1ff00;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .btn-voltar:hover {
+      background: #8fd700;
+    }
+  </style>
+</head>
+<body>
+  <div class="personagem">👷‍♂️</div>
+  <h1>Ops! Página em Construção 🚧</h1>
+  <p>Estamos trabalhando para trazer novidades. Volte em breve!</p>
+  <a href="/" class="btn-voltar">Voltar para a página inicial</a>
+</body>
+</html>
