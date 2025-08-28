@@ -303,7 +303,32 @@
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
+        /* saiba mais */
+        .btn-saiba-mais {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #b1ff00;
+            color:#000;      
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;                                                                                                                                                                                                                                    ;
+        }
+        .btn-saiba-mais:hover {
+             background: #8bcc00; /* verde mais escuro no hover */
+             color: #fff; /* texto branco ao passar o mouse */
+             transform: scale(1.05); /* efeito de leve aumento */
+        }
+        .btn-saiba-mais {
+             align-self: center; /* centraliza horizontalmente */
+             margin-top: auto;   /* empurra o botão para o final do card */
+        }
+
 
         .service-card::before {
             /* Cria um overlay semi-transparente para o texto ser legível */
